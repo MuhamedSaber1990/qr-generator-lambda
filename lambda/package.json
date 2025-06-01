@@ -1,0 +1,21 @@
+{
+  "name": "qr-generator-lambda",
+  "version": "1.0.0",
+  "description": "Simple QR code generator using AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r qr-generator.zip index.js node_modules/ package.json"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "keywords": [
+    "qr",
+    "generator",
+    "lambda",
+    "aws"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
